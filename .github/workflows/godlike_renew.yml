@@ -1,8 +1,8 @@
 name: Auto Renew Godlike
 
 on:  
-  schedule:
-    - cron: '17 9 * * *'  # 每天运行一次
+  #schedule:
+    #- cron: '17 9 * * *'  # 每天运行一次
   workflow_dispatch:  # 允许手动触发
 
 jobs:
